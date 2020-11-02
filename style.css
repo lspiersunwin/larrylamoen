@@ -1,0 +1,27 @@
+.container h1 {
+    padding: 20px 100px;
+    font-size: 33px;
+    font-family: abel;
+    letter-spacing: 0.363636em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1em; 
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+
+.container .grid img {
+    padding: 0 20px 20px;
+}
+
+img:hover {
+    opacity: 0.4;
+    transition: 0.9s;
+}
